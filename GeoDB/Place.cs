@@ -7,7 +7,7 @@ namespace GeoDB
     class Place
     {
         public string Name { get; set; }
-        GeoCoordinate Coordinate;
+        public GeoCoordinate Coordinate;
         List<Comment> Comments;
         List<Rating> Ratings;
 
